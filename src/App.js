@@ -3,10 +3,11 @@ import Myapp from './component/Myapp';
 import Avatar from './avatar.png';
 import './App.css';
 import '../node_modules/font-awesome/css/font-awesome.min.css'; 
+import Main from './main';
 
 function App() {
   return (
-    <div className='form'>
+   /* <div className='form'>
           <div>
           <img src={"/phone.png"}  className='my-img' />
              <br />
@@ -24,7 +25,12 @@ function App() {
         <input type="submit" value="Login"  className="submit"/>
       </form>
           </div>
+    </div>*/
+    <div className="fullbody">
+       < Main />
+  
     </div>
+   
   );
 }
 
