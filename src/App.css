@@ -42,6 +42,10 @@
 .fullbody{
     background: linear-gradient(to  right,rgb(106, 191, 224),rgb(97, 126, 206));
 }
+.video
+{
+    margin-left: 55.9rem;
+}
 /*--------folder Profile---------*/
 .myPhoto{
     width: 40%;
